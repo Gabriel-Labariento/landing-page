@@ -19,11 +19,13 @@ html, body {
 
 .section {
     display: flex;
+    flex-wrap: wrap;
     min-height: 80vh;
 }
 
 .header{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     background-color: #1f2937;
 }
@@ -36,6 +38,7 @@ ul, li {
     display: flex;
     gap: 30px;
     justify-content: flex-end;
+    flex-wrap: wrap;
 }
 
 .logo {
@@ -69,7 +72,8 @@ img {
 .section-one-content {
     display: flex;
     justify-content: center;
-    gap: 70px;
+    gap: 180px;
+    flex-wrap: wrap;
     align-items: flex-start;
     margin-top: 100px;
 }
@@ -186,4 +190,13 @@ img {
     color: #f9faf8;
     font-weight: bold;
     font-size: 16px;
+}
+
+.footer {
+    min-height: 5vh;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
 }
